@@ -1,0 +1,30 @@
+.navigation_bar {
+  width: 100%;
+  height: 15%;
+  position: fixed;
+  top: 0;
+}
+
+
+.navigation_bar .add_pin {
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 15%;
+  left: 95%;
+  border-radius: 50%;
+
+  transition-duration: 0.3s;
+}
+
+.navigation_bar .add_pin:hover {
+  background-color:  rgb(48, 125, 51);
+  transform: scale(1.2);
+}
+
+.add_pin_modal {
+  opacity: 0;
+  pointer-events: none;
+  transition-duration: 0.5s;
+}
